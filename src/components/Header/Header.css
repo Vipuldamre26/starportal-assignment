@@ -1,0 +1,82 @@
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../assets/header_bg_img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 65px;
+    background-color: white;
+}
+
+.header .header-main{
+    height: 20rem;
+    width: 37rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.831);
+    background: none;
+}
+
+.header .header-main .header-content {
+    background: none;
+}
+
+.header .header-main .header-content p{
+    font-size: 1.2rem;
+    background: none;
+    color: rgb(128, 128, 128);
+}
+
+.header .header-main .header-content p span{
+    background: none;
+    color: rgba(255, 255, 255, 0.831);
+
+}
+
+.header .header-main .gif{
+    width: 16rem;
+    background: none;
+}
+
+.header .header-main .gif img{
+    width: 16rem;
+    background: none;
+}
+
+.header .header-main .btn{
+    width: 13rem;
+    height: 2.4rem;
+    margin: auto;
+    border-radius: 8px;
+    background: none;
+    background-color: #7243EC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+.header .header-main .btn:hover h4{
+    padding-left: 5px;
+    transition: 0.4s ease;
+}
+
+.header .header-main .btn h4{
+    background: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.header .header-main .btn h4 img{
+    background: none;
+    margin: 0 0.2rem;
+}

@@ -1,0 +1,146 @@
+.navbar {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    border-bottom: rgba(255, 255, 255, 0.05);
+    background-color: rgba(0, 0, 0, 0.01);
+    backdrop-filter: blur(5px);
+}
+
+.navbar .nav-main {
+    width: 100%;
+    margin: auto;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+
+}
+
+.navbar .nav-main .logo{
+    background: none;
+}
+
+.navbar .nav-main .logo img{
+    background: none;
+}
+
+.navbar .nav-main .nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 80%;
+    background: none;
+}
+
+.navbar .nav-main .nav-items p {
+    color: rgb(204, 204, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 50px;
+    box-sizing: border-box;
+    background: none;
+}
+
+.navbar .nav-main .nav-items .link {
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    background: none;
+}
+
+.navbar .nav-main .nav-items .link.active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.navbar .nav-main .nav-items p span {
+    font-size: 0.8rem;
+    width: 2.3rem;
+    height: 1.2rem;
+    background-color: #6435e9;
+    color: white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.4rem;
+    cursor: pointer;
+}
+
+.navbar .nav-main .navsearch {
+    width: 27.5rem;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 5rem;
+    border: 1px solid rgba(56, 55, 55, 0.479);
+    background-color: rgba(92, 92, 92, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.navbar .nav-main .navsearch .search-icon {
+    color: rgb(150, 150, 150);
+    background: none;
+}
+
+.navbar .nav-main .navsearch input {
+    color: rgb(245, 245, 245);
+    width: 90%;
+    border: none;
+    outline: none;
+    font-family: Outfit;
+    background: none;
+}
+
+.navbar .nav-main .navsearch input::placeholder {
+    color: rgb(170, 170, 170);
+}
+
+.navbar .nav-main .nav-signin {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orangered;
+    cursor: pointer;
+    background: none;
+}
+
+.navbar .nav-main .nav-signin img{
+    background: none;
+}
+
+.navbar .nav-main button {
+    width: 6rem;
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    font-family: Outfit;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
