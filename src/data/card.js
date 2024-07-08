@@ -9,13 +9,13 @@ import stackImg6 from '../assets/stack-img6.jpg'
 
 const card1 = [
     {
-        "heading": "Basics of Crypto",
-        "disc": "The safest and easiest place to start your crypto journey!",
-        "quests": "6 Quests",
-        "xp": "1490 XPs",
-        "coin-img": coinImg,
-        "stack": stack,
-        "arr": [
+        heading: "Basics of Crypto",
+        disc: "The safest and easiest place to start your crypto journey!",
+        quests: "6 Quests",
+        xp: "1490 XPs",
+        coinImg: coinImg,
+        stack: stack,
+        arr: [
             {
                 id: 1,
                 img: stackImg1,

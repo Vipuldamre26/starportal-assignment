@@ -2,7 +2,6 @@ import React from 'react'
 import './Navbar.css';
 import logo from '../../assets/intract-logo.svg'
 import broadcast from '../../assets/broadcast-icon.svg';
-import { IoSearch } from "react-icons/io5";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { NavLink } from 'react-router-dom';
 
